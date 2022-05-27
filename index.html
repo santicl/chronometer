@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Cronometer</title>
+</head>
+<body>
+    <div class="container-all">
+        <div class="circle" style="--color: blue;">
+            <svg>
+                <circle  cx="70" cy="70" r="70" />
+                <circle id="h" cx="70" cy="70" r="70" />
+            </svg>
+            <div id="hours">00</div>
+        </div>
+        <div class="circle" style="--color: red;">
+            <svg>
+                <circle cx="70" cy="70" r="70" />
+                <circle id="m" cx="70" cy="70" r="70" />
+            </svg>
+            <div id="minutes">00</div>
+        </div>
+        <div class="circle" style="--color: #fee800;">
+            <svg>
+                <circle cx="70" cy="70" r="70" />
+                <circle id="s" cx="70" cy="70" r="70" />
+            </svg>
+            <div id="seconds">00</div>
+        </div>
+        <div class="container-all-btns">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="js/timer.js"></script>
+</body>
+</html>
