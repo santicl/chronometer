@@ -1,4 +1,4 @@
-let second = 50;
+let second = 0;
 let minute = 0;
 let hour = 0;
 
